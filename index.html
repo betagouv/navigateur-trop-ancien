@@ -65,7 +65,7 @@
             Merci de le mettre à jour ou de télécharger la version actualisée de
             l’un de ces navigateurs gratuits :
           </p>
-          <div class="fr-grid-row fr-grid-row--gutters fr-mb-1w">
+          <div class="fr-grid-row fr-grid-row--gutters fr-mb-1w" id="browsers">
             <div class="fr-col">
               <div class="fr-card fr-card--sm fr-card--shadow fr-enlarge-link">
                 <div class="fr-card__body">
@@ -344,4 +344,10 @@
       </div>
     </footer>
   </body>
+  <script type="text/javascript">
+    var ul = document.getElementById("browsers");
+    for (var i = ul.children.length; i >= 0; i--) {
+      ul.appendChild(ul.children[(Math.random() * i) | 0]);
+    }
+  </script>
 </html>
