@@ -17,7 +17,7 @@ plugins.push(require("cssnano"));
 module.exports = {
   root: ".",
   publicDir: false,
-  base: "/",
+  base: "./",
   build: {
     outDir: "./dist",
     rollupOptions: {
