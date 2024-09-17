@@ -22,6 +22,6 @@
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "autoprefixer": "^10.4.19",
     "cssnano": "^6.1.2",
-    "vite": "^5.2.6"
+    "vite": "^5.2.14"
   }
 }
